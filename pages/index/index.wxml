@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <image src="{{firstpicture}}" class="firstpic"></image>
+    <text class="hello">{{name}}</text>
+    <button open-type="getUserInfo" bindgetuserinfo="getMyInfo" wx:if="{{!islogin}}">微信登录</button>
+</view>

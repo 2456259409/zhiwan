@@ -1,0 +1,61 @@
+<!-- 顶部部分简介 -->
+<view class="total">
+  <!-- <button class="tip_item" wx:if='{{nickName}}="xx"'>请先登录</button> -->
+  <view class="top_base">
+  <view class="base_info">
+    <text>昵称:{{nickName}}</text>
+    <text>性别:{{gender}}</text>
+    <text>城市:{{province}}</text>
+    <text>年龄:{{user.age}}</text>
+    <text>手机号:{{user.phoneNumber}}</text>
+  </view>
+  <view class="">
+    <image src="{{avatar}}" class="user_avatar"></image>
+  </view>
+</view>
+<!-- 自我介绍及爱好简介部分 -->
+<view class="base_mid">
+  <view class="base_mid_item">
+    <!-- <button class="base_btn">自我介绍:</button> -->
+    <text>自我介绍</text>
+    <textarea disabled='true' class="textabout">{{user.personIntroduse}}</textarea> 
+  </view>
+
+  <view class="base_mid_item">
+    <!-- <button class="base_btn">爱好简介:</button> -->
+    <text>爱好简介</text>
+    <textarea disabled='true' class="textabout">{{user.likeIntroduse}}</textarea>
+  </view>
+
+  <!-- <view class="base_mid_item">
+    <button></button> 
+    <text></text>
+  </view> -->
+</view>
+
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">游戏名</view>
+    <view class="th">游戏等级</view>
+  </view>
+  <block wx:for="{{games}}" wx:key="code">
+    <view class="tr" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.gameName}}</view>
+      <view class="td">{{item.level}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.gameName}}</view>
+      <view class="td">{{item.level}}</view>
+    </view>
+  </block>
+</view>
+
+
+
+
+<view class="reset_container">
+<button class="reset_btn" bindtap="reviseShow">修改资料</button>
+</view>
+
+
+</view>

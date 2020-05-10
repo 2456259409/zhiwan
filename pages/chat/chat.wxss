@@ -1,0 +1,17 @@
+/* pages/chat/chat.wxss */
+.search-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_input{
+  width: 600rpx;
+  border: 1rpx solid #3386EE;
+  height: 75rpx;
+}
+
+.search_btn{
+  width: 150rpx;
+}

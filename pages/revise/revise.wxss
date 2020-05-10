@@ -1,0 +1,98 @@
+/* pages/revise/revise.wxss */
+.base_mid{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 400rpx;
+}
+
+.base_mid_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 45rpx;
+  margin: 30rpx;
+  align-items: center;
+}
+
+.base_mid_item2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 45rpx;
+  align-items: center;
+}
+
+.base_btn{
+  background-color: white;
+}
+
+.age_change{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90rpx;
+  margin: 20rpx;
+}
+
+.age_input{
+  width: 1000rpx;
+  height: 100%;
+  border: 1rpx solid #3366FF;
+}
+
+.submit_btn{
+  flex-grow:1;
+}
+
+.my_introduse{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 表格 */
+.table {
+  border: 0px solid darkgray;
+  font-size: 12px;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: snow;
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+.action_btn{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.action_btn_item{
+  width: 30rpx;
+  font-size: 20rpx;
+}
+/* 表格 */
+.textabout{
+  font-size: 35rpx;
+  border: 1rpx solid #3366FF;
+}
+

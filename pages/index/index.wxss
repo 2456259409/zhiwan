@@ -1,0 +1,19 @@
+/* pages/index/index.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .firstpic{
+    width: 400rpx;
+    border-radius: 50%;
+}
+
+.container .hello{
+    font-size: 50rpx;
+    color: red;
+    border: 1rpx solid pink;
+    margin: 20rpx;
+}
